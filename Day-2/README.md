@@ -1,6 +1,6 @@
 # 🎨 Day 2 — CSS Foundations Revision
 
-![Status](https://img.shields.io/badge/Status-Status-completed-green)
+![Status](https://img.shields.io/badge/Status-Status-Completed-success)
 ![Learning](https://img.shields.io/badge/Learning-CSS3-orange)
 ![Course](https://img.shields.io/badge/Course-freeCodeCamp-blueviolet)
 ![Progress](https://img.shields.io/badge/Progress-Day%202%20of%20Fullstack-informational)
