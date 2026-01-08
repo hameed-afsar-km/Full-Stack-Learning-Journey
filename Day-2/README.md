@@ -1,4 +1,4 @@
-# 🎨 Day 2 — CSS Full Revision
+# 🎨 Day 2 — CSS Foundations Revision
 
 ![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
 ![Learning](https://img.shields.io/badge/Learning-CSS3-orange)
@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-This repository documents **Day 2 of my Full-Stack Web Development learning journey**, where I completed a **complete revision of core CSS fundamentals** as part of **freeCodeCamp’s Full-Stack curriculum**.
+This repository documents **Day 2 of my Full-Stack Web Development learning journey**, where I completed a **basic foundational revision of core CSS fundamentals** as part of **freeCodeCamp’s Full-Stack curriculum**.
 
 The focus of this day was on **understanding how styling works in the browser**, learning **how to control layout, appearance, and UI**, and strengthening my grasp of **foundational CSS concepts used in real-world projects**.
 
