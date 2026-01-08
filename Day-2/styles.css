@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(35deg, #0f0120, #1e0a59);
+    color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.topic {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.selector-demo {
+    color: #9cc9ff;
+}
+
+.class-demo {
+    color: #ff9ccc;
+}
+
+#id-demo {
+    color: #9cffb2;
+}
+
+.text-style {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.8;
+}
+
+.text-align.left {
+    text-align: left;
+}
+
+.text-align.center {
+    text-align: center;
+}
+
+.text-align.right {
+    text-align: right;
+}
+
+.whitespace-box {
+    white-space: pre;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.overflow-box {
+    width: 220px;
+    height: 50px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.bg-color {
+    background-color: #4e6cff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.bg-image {
+    background-image: url("https://blog.logrocket.com/wp-content/uploads/2023/06/css-full-page-background.png");
+    background-size: cover;
+    height: 90px;
+    border-radius: 6px;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #ff7a18, #ffb347);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.margin-box {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.padding-box {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.border-box {
+    border: 2px solid #9cc9ff;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.display-inline,
+.display-inline-block,
+.display-block {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.display-inline-block {
+    width: 140px;
+}
+
+.display-block {
+    margin-top: 6px;
+}
+
+.position-container {
+    position: relative;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+.box {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.one {
+    background-color: #ff4c4c;
+    left: 10px;
+    z-index: 1;
+}
+
+.two {
+    background-color: #4e6cff;
+    left: 35px;
+    top: 20px;
+    z-index: 2;
+}
+
+.three {
+    background-color: #4cff91;
+    left: 60px;
+    top: 40px;
+    z-index: 3;
+}
+
+.opacity-box {
+    opacity: 0.6;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.visibility-box {
+    visibility: hidden;
+}
+
+.box-shadow {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 6px black;
+}
+
+.custom-ul,
+.custom-ol {
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 320px;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px;
+}
+
+caption {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.input,
+.textarea,
+.select {
+    display: block;
+    width: 260px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4e6cff;
+}
+
+.input:disabled {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    padding: 6px 14px;
+    background-color: #4e6cff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+input[type="email"] {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.pseudo-link {
+    color: #9cc9ff;
+    text-decoration: none;
+}
+
+.pseudo-link:hover {
+    text-decoration: underline;
+}
+
+.pseudo-list li:first-child {
+    color: #ff9ccc;
+}
+
+.pseudo-list li:last-child {
+    color: #9cffb2;
+}
+
+.pseudo-element::before {
+    content: "➤ ";
+    color: #ffb347;
+}
+
+.pseudo-element::after {
+    content: " ✔";
+    color: #4cff91;
+}
+
+.cursor-btn {
+    cursor: pointer;
+}
+
+.outline-input:focus {
+    outline: 2px solid #ff7a18;
+}
