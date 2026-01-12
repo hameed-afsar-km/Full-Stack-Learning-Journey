@@ -7,6 +7,9 @@ const nums = "1234567890";
 const sym = "!@#$%^&*()_-+=";
 
 btn.onclick = function(){
+     gen.style.color = "#fefefe";
+     gen.style.textShadow = "0 0 10px rgba(255,255,255,0.1)";
+
     let allowed = "";
     let password = "";
 
@@ -17,11 +20,15 @@ btn.onclick = function(){
     const size = document.getElementById("size");
 
     if (!(size.value > 0)){
+        gen.style.color = "red";
+        gen.style.textShadow = "none";
         gen.textContent = "Please enter a valid size greater than 0";
         return;
     } 
     
     if (!upper && !lower && !numb && !symbol){
+        gen.style.color = "red";
+        gen.style.textShadow = "none";
         gen.textContent = "Please select at least one option";
     } else {
         allowed += upper ? upp : "";
