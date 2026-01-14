@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Learning Exhibition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 class="title">JavaScript Learning Exhibition</h1>
+
+<section class="section">
+    <p class="topic">Variables & Data Types</p>
+    <div class="row">
+        <button onclick="showVar()">let / const</button>
+        <button onclick="showType()">typeof</button>
+    </div>
+    <p id="var-output" class="output"></p>
+</section>
+
+<section class="section">
+    <p class="topic">Functions</p>
+    <div class="row">
+        <button onclick="normalFn()">Normal Function</button>
+        <button onclick="arrowFn()">Arrow Function</button>
+    </div>
+    <p id="fn-output" class="output"></p>
+</section>
+
+<section class="section">
+    <p class="topic">Arrays & Methods</p>
+    <div class="row">
+        <button onclick="mapExample()">map()</button>
+        <button onclick="filterExample()">filter()</button>
+        <button onclick="reduceExample()">reduce()</button>
+    </div>
+    <p id="array-output" class="output"></p>
+</section>
+
+<section class="section">
+    <p class="topic">Objects & this</p>
+    <div class="row">
+        <button onclick="objectExample()">Object Method</button>
+        <button onclick="destructure()">Destructuring</button>
+    </div>
+    <p id="object-output" class="output"></p>
+</section>
+
+<section class="section">
+    <p class="topic">Scope & Closures</p>
+    <div class="row">
+        <button onclick="scopeTest()">Scope</button>
+        <button onclick="closureTest()">Closure</button>
+    </div>
+    <p id="scope-output" class="output"></p>
+</section>
+
+<section class="section">
+    <p class="topic">DOM & Events</p>
+    <div class="row">
+        <button id="domBtn">Click Me</button>
+    </div>
+    <p id="dom-output" class="output"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
